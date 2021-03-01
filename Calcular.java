@@ -46,7 +46,7 @@ public class Calcular {
         int numero2 = (int)(Math.random()*10);
         Curp +=""+numero1+numero2;
 
-        System.out.println("\nSu CURP es: "+Curp);
+        System.out.println("\nSu CURP es: "+Curp+"\n");
 
 
     }
@@ -66,7 +66,7 @@ public class Calcular {
         int n2 = (int)(Math.random()*10);
         int n3 = (int)(Math.random()*10);
         Rfc +=""+apellidoMaterno.charAt(0)+ nombre.charAt(0)+ fechaNac.charAt(0) +fechaNac.charAt(1)+fechaNac.charAt(3)+fechaNac.charAt(4)+fechaNac.charAt(6)+fechaNac.charAt(7)+n1+n2+n3;
-        System.out.println("\nSu RFC es: "+Rfc);
+        System.out.println("\nSu RFC es: "+Rfc+"\n");
     }
     public void CalcularAmbos(String apellidoPaterno,  String apellidoMaterno, String nombre, String fechaNac, String sexo, String lugarNac){
         CalcularCurp(apellidoPaterno, apellidoMaterno, nombre, fechaNac, sexo, lugarNac);
