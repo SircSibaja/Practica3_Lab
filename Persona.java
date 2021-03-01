@@ -45,7 +45,7 @@ public class Persona{
 
 
         Calcular Curp = new Calcular();
-        Calcular RFC = new Calcular();
+        Calcular Rfc = new Calcular();
         Calcular CyF = new Calcular();
 
         System.out.println("\nQue desea calcular\n[1] CURP\n[2] RFC\n[3] Ambos\n");
@@ -57,7 +57,7 @@ public class Persona{
             Curp.CalcularCurp(apellidoPaterno, apellidoMaterno, nombre, fechaNac, sexo, lugarNac);
             break;
             case 2:
-            RFC.CalcularRFC(apellidoPaterno, apellidoMaterno, nombre, fechaNac);
+            Rfc.CalcularRFC(apellidoPaterno, apellidoMaterno, nombre, fechaNac);
             break;
             case 3:
             CyF.CalcularAmbos(apellidoPaterno, apellidoMaterno, nombre, fechaNac, sexo, lugarNac);
